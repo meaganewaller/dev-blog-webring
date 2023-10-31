@@ -1,0 +1,50 @@
+en:
+  default:
+    delete: 'Delete'
+    edit: 'Edit'
+    login: 'Login'
+    logout: 'Logout'
+    password_reset: 'Password reset'
+    register: 'Register'
+    search: 'Search'
+    show: 'Show'
+    message:
+      created: '%{item} created'
+      delete_confirm: 'Are you sure you want to delete %{item} ?'
+      deleted: '%{item} deleted'
+      not_authorized: 'You are not authorized to do this'
+      not_created: '%{item} not created'
+      not_deleted: '%{item} not deleted'
+      not_found: 'Not found'
+      not_updated: '%{item} not updated'
+      require_login: 'You must be logged in to perform this action'
+      updated: '%{item} updated'
+  static_pages:
+    top:
+      about: 'About'
+      contact: 'Contact'
+      home: 'Home'
+      privacy_policy: 'Privacy policy'
+    privacy:
+      title: 'Privacy policy'
+    terms:
+      title: 'Terms of use'
+  users:
+    show:
+      title: 'User profile'
+    new:
+      title: 'New user'
+      to_login_page: 'Go to login page'
+    create:
+      success: 'User created'
+      fail: 'User not created'
+  user_sessions:
+    new:
+      title: 'New session'
+      to_register_page: 'Go to register page'
+      password_forget: 'I forgot my password'
+    create:
+      success: 'Logged in'
+      fail: 'Could not log in'
+    destroy:
+      success: 'Logged out'

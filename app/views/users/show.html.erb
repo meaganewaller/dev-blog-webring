@@ -1,0 +1,17 @@
+<h1 class='text-3xl font-bold font-mono text-center items-center p-2'><%= t('.title') %></h1>
+<div class="container mx-auto flex justify-center items-center text-center">
+  <div class='p-3'>
+    <div class="card lg:card  shadow-xl items-center text-center">
+      <div class="card-body">
+        <h1 class="card-title text-3xl">
+          <div class="card-actions justify-end">
+          <%= @user.name %>
+        </h1>
+      </div>
+    </div>
+  </div>
+</div>
+<div class='container mx-auto flex justify-center items-center p-3'>
+  <%= link_to 'Back home', root_path, class: 'btn btn-sm outline' %>
+</div>
+
